@@ -3,6 +3,14 @@
 - Let&#39;s try it!😊
 - https://hidecharo.github.io/issue-manager-by-nuxt/
 
+
+## Docs
+
+- https://ja.nuxtjs.org/api
+- https://jp.vuejs.org/v2/api/
+- https://tailwindcss.com/components
+
+
 ## Build Setup
 
 ``` bash
@@ -19,5 +27,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

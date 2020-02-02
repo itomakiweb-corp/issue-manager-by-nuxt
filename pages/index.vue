@@ -58,14 +58,17 @@ export default {
       issues: []
     }
   },
+
   watch: {
     async token() {
       await this.fetchIssue()
     }
   },
+
   async mounted() {
     await this.fetchIssue()
   },
+
   methods: {
     async fetchIssue() {
       if (this.token.length !== configs.githubTokenLength) return

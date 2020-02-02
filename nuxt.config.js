@@ -1,11 +1,21 @@
 export default {
   mode: 'universal',
+
+  /*
+   ** https://ja.nuxtjs.org/faq/github-pages/
+   ** TODO thinking about DEPLOY_ENV
+   */
   router: {
     base: '/issue-manager-by-nuxt/'
   },
+
+  /*
+   ** https://ja.nuxtjs.org/api/configuration-generate/#dir
+   */
   generate: {
     dir: 'docs'
   },
+
   /*
    ** Headers of the page
    */
@@ -22,18 +32,22 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+
   /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
+
   /*
    ** Global CSS
    */
   css: [],
+
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
+
   /*
    ** Nuxt.js dev-modules
    */
@@ -45,6 +59,7 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
   ],
+
   /*
    ** Nuxt.js modules
    */
@@ -55,11 +70,13 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv'
   ],
+
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+
   /*
    ** Build configuration
    */
