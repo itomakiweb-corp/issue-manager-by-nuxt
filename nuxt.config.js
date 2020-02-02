@@ -1,5 +1,11 @@
 export default {
   mode: 'universal',
+  router: {
+    base: '/issue-manager-by-nuxt/'
+  },
+  generate: {
+    dir: 'docs'
+  },
   /*
    ** Headers of the page
    */
