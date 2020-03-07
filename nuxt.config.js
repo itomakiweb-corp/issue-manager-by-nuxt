@@ -3,10 +3,10 @@ export default {
 
   /*
    ** https://ja.nuxtjs.org/faq/github-pages/
-   ** TODO thinking about DEPLOY_ENV
    */
   router: {
-    base: '/issue-manager-by-nuxt/'
+    base:
+      process.env.DEPLOY_ENV === 'GH_PAGES' ? '/issue-manager-by-nuxt/' : '/'
   },
 
   /*

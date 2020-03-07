@@ -60,7 +60,8 @@ export default {
   },
 
   watch: {
-    async token() {
+    async token(newToken, oldToken) {
+      console.log(newToken, oldToken)
       await this.fetchIssue()
     }
   },
