@@ -1,7 +1,7 @@
 # issue-manager-by-nuxt
 
 - Let&#39;s try it!😊
-- https://hidecharo.github.io/issue-manager-by-nuxt/
+- https://itomakiweb-corp.github.io/issue-manager-by-nuxt/
 
 
 ## Docs
